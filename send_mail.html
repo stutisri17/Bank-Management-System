@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript">
+function onsubmitt()
+{
+return confirm("Are you sure you want to continue");
+}
+</script>
+
+</head>
+<body>
+<br><br>
+
+<form method="post" action="send_mail" onSubmit="return onsubmitt()">
+
+Enter Destination Email-ID
+<input type="text" name="destination_emailid" title="Enter Email-ID To whom message To Send">
+<br><br>
+
+Enter Message To Send
+<Textarea name="message" rows="5" cols="25"></textarea><br><br>
+<input type="submit">
+
+<br><br>
+https://www.google.com/settings/security/lesssecureapps
+</form>
+
+</body>
+</html>
